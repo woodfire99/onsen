@@ -1,0 +1,22 @@
+services:
+  tagging-api:
+    build: ./tagging-api
+    ports:
+      - "9000:9000"
+    volumes:
+      - ./tagging-api:/app
+    networks:
+      - onsen_net
+
+  script:
+    build: ./tagging-api
+    volumes:
+      - ./tagging-api:/app
+      - ./data:/app/data 
+    working_dir: /app
+    entrypoint: ["python", "script/main.py"]
+    networks:            
+    - onsen_net
+
+networks:
+  onsen_net:
