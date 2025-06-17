@@ -6,6 +6,10 @@
 
 ## Example
 
+Website
+![image](https://github.com/user-attachments/assets/d6602897-cd8e-4b52-85ac-e5de41f728a4)  
+<br/>
+
 ### 情報型（単一質問）
 
 | 質問（prompt） | 回答（completion） |
