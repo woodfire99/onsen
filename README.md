@@ -1,6 +1,7 @@
 # onsen
 
-Creating JSONL data for Improving questions and answer
+1. Creating JSONL data
+2. Improving questions and answer
 
 
 ## Example
